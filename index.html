@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smileyFace</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* This is for wire framing to see our rows/columns */
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
+<body class="">
+    <main class="container">
+        <div class="row">
+            <div class="col-6">
+                <img src="https://m.media-amazon.com/images/I/51zLZbEVSTL._AC_SL1200_.jpg" alt="face">
+            </div>
+            <div class="col-6">
+                <img src="https://m.media-amazon.com/images/I/51zLZbEVSTL._AC_SL1200_.jpg" alt="face">
+            </div>
+        </div>
+    </main>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://m.media-amazon.com/images/I/51zLZbEVSTL._AC_SL1200_.jpg" alt="face">
+            </div>
+            <div class="col-md-6">
+                <img src="https://m.media-amazon.com/images/I/51zLZbEVSTL._AC_SL1200_.jpg" alt="face">
+            </div>
+        </div>
+    </main>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12" >
+                <img src="https://m.media-amazon.com/images/I/51zLZbEVSTL._AC_SL1200_.jpg" alt="face">
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <img src="https://m.media-amazon.com/images/I/51zLZbEVSTL._AC_SL1200_.jpg" alt="face">
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <img src="https://m.media-amazon.com/images/I/51zLZbEVSTL._AC_SL1200_.jpg" alt="face">
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <img src="https://m.media-amazon.com/images/I/51zLZbEVSTL._AC_SL1200_.jpg" alt="face">
+            </div>
+        </div>
+
+    </main>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <img class="my-auto" src="https://m.media-amazon.com/images/I/51zLZbEVSTL._AC_SL1200_.jpg" alt="face">
+          </div>
+          <div class="col-sm-9">
+            <!-- Here we nest two rows -->
+            <div class="row">
+              <!-- A first one with two cols -->
+              <div class="col-sm-6">
+                  <img src="https://m.media-amazon.com/images/I/51zLZbEVSTL._AC_SL1200_.jpg" alt="face">
+              </div>
+              <div class="col-sm-6">
+                  <img src="https://m.media-amazon.com/images/I/51zLZbEVSTL._AC_SL1200_.jpg" alt="face">
+              </div>
+            </div>
+            <div class="row">
+              <!-- A second one with just one col -->
+              <div class="col-sm-12">
+                <img src="https://m.media-amazon.com/images/I/51zLZbEVSTL._AC_SL1200_.jpg" alt="face">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+img{
+    height: 4vh;
+    width: 4vw;
+    text-align: center;    
+}
+
+
+[class*="col-"] {
+    text-align: center;
+    margin-block: 40px;
+    padding-block: 16px;
+    border: solid;
+    border-color: black;
+
+}
+
+ 
